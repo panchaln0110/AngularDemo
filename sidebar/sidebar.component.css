@@ -1,0 +1,21 @@
+:host{
+    display: block;
+    box-shadow: 0px 1px 1px #ccc;
+    height: 100vh;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+    padding-left: 40px;
+}
+li a{
+    color : #4CAF50;
+}
+li.active{
+    background: #4CAF50;
+}
+li.active a{
+    color:#fff;
+}
